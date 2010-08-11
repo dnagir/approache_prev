@@ -5,19 +5,67 @@ aside, nav, article, figure {
 }
 
 body {
-  font-family: "Arial Black", "Georgia","Serif";
-	color: #222222; /* #4E443C */
+  font-family: verdana,sans-serif; /* "Arial Black", "Georgia","Serif" */;
+  font-size: 14px;
+	color: #BBBBBB;/* #222222;  #4E443C */
   
-  background: none repeat scroll left top #66BBDD;
-
-	text-transform: none;
-	font-weight: 100;
+  background-color: #101010;
+ 	
+	text-align: center; /* IE centring */
 }
 
-h1 a, h2 a {
-  text-decoration: none;
-  color: inherit;
+nav {
+  background-color: #0776A0;
 }
+
+section {
+  background-color: #024C68;
+  padding: 5px;
+}
+
+article {
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}
+  article img {
+    padding: 0;
+    margin: 5px;
+  }
+
+a {
+  color: #62B1D0;
+}
+
+q, quote, blockquote {
+  font-style: italic;
+  color: white;
+}
+em {
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #5DCFC3;
+}
+  h1 a, h2 a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+footer {
+  text-align: center !important;
+  opacity: 0.8;
+  font-size: 0.7em;
+}
+
+
+
+
 
 .lefty {
   float: left;
@@ -31,11 +79,14 @@ h1 a, h2 a {
   margin: 0 auto; 
   width: 800px;
   z-index: 5;
+  
+  text-align: left; /* IE centering */
 }
 
-
-nav.context {
+.contexty {
   z-index: 0;
+  
+  text-align: left; /* IE centering */
   
   position: fixed;
   top: 20%;
@@ -47,27 +98,26 @@ nav.context {
   border-left: 5px solid gray;
   border-top: 5px solid gray;
   padding: 10px;
+
 }
+
+
+section.contenty {
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-top: 1px solid #024C68;
+  border-right: 1px solid #024C68;
+  border-bottom: 1px solid #024C68;
+  border-left: 1px solid #024C68;
+}
+
 nav:hover {
   opacity: 1;
 }
-
   nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
   }
-  nav ul a:hover {
-    color: #222222;
-  }
-  
 
-article {
-  padding-top: 40px;
-}
-
-footer {
-  text-align: center;
-  opacity: 0.8;
-  font-size: 0.7em;
-}
