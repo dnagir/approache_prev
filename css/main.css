@@ -10,8 +10,6 @@ body {
 	color: #BBBBBB;/* #222222;  #4E443C */
   
   background-color: #101010;
- 	
-	text-align: center; /* IE centring */
 }
 
 nav {
@@ -40,6 +38,12 @@ article {
 a {
   color: #62B1D0;
 }
+  a.external {
+    font-weight: bolder;
+  }
+    a.external:after {
+      content: " >";
+    }
 
 q, quote, blockquote {
   font-style: italic;
@@ -55,6 +59,10 @@ h1, h2, h3, h4, h5 {
   h1 a, h2 a {
     text-decoration: none;
     color: inherit;
+  }
+  h4, h5 {
+    padding: 0;
+    margin: 10px 0 0 0;
   }
 
 footer {
@@ -76,20 +84,14 @@ footer {
 
 .contenty {
   clear: both; 
-  margin: 0 auto; 
+  margin: 0px auto 0px 180px;
   width: 800px;
   z-index: 5;
-  
-  text-align: left; /* IE centering */
 }
 
 .contexty {
-  z-index: 0;
-  
-  text-align: left; /* IE centering */
-  
   position: fixed;
-  top: 20%;
+  top: 10px;
   left: 10px;
   opacity: 0.7;
   
@@ -120,4 +122,7 @@ nav:hover {
     margin: 0;
     list-style-type: none;
   }
+    nav li a {
+      font-weight: bold;
+    }
 
