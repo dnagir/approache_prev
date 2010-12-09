@@ -84,7 +84,7 @@ footer {
 
 .contenty {
   clear: both; 
-  margin: 0px auto 0px 180px;
+  margin: 0px auto 0px 185px;
   width: 800px;
   z-index: 5;
 }
@@ -92,7 +92,7 @@ footer {
 .contexty {
   position: fixed;
   top: 10px;
-  left: 10px;
+  left: 0;
   opacity: 0.7;
   
   -moz-border-radius: 5px;
@@ -100,6 +100,7 @@ footer {
   border-left: 5px solid gray;
   border-top: 5px solid gray;
   padding: 10px;
+  margin-left: 20px;
 
 }
 
