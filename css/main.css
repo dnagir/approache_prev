@@ -89,6 +89,8 @@ footer {
   z-index: 5;
 }
 
+.clear { clear: both; }
+
 .contexty {
   position: fixed;
   top: 10px;
